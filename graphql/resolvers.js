@@ -8,4 +8,32 @@ const resolvers = {
 	},
 };
 
+/*
+## getMovies
+
+query{
+  movies(rating:10, limit:30){
+		id
+    title
+  }
+}
+
+## getMovie
+
+query{
+  movie(id:2){
+		id
+    title
+  }
+}
+
+## suggestions
+query{
+  suggestions(id:2){
+		id
+    title
+  }
+}
+*/
+
 export default resolvers;
